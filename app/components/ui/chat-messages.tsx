@@ -32,9 +32,9 @@ export const ChatMessages = (props: Props) => {
 
   return (
     <div className="flex h-[50vh] flex-col gap-5 divide-y overflow-y-auto pb-4" ref={scrollableChatContainerRef}>
-      {props.messages.map((m) => (
-        <div key={m.id} className="flex-1 space-y-4">
-          <Markdown>{m.content}</Markdown>
+      {props.messages.map((message) => (
+        <div key={message.id} className="flex-1 space-y-4">
+          <Markdown>{message.content}</Markdown>
         </div>
       ))}
       {isPending && (
