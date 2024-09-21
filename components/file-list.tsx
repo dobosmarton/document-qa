@@ -1,4 +1,4 @@
-import { listFiles } from "../file-upload/api-client";
+import { listFiles } from "@/lib/file-upload/api-client";
 
 export const FileList = async () => {
   const { files } = await listFiles();

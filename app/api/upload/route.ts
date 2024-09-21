@@ -1,5 +1,5 @@
 import { createRouteHandler, createUploadthing, type FileRouter as UploadThingFileRouter } from "uploadthing/next";
-import { getDocuments, getIndexFromStore } from "@/app/ai-engine";
+import { getDocuments, getIndexFromStore } from "@/lib/ai-engine";
 
 const f = createUploadthing();
 

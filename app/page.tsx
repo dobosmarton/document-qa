@@ -1,5 +1,5 @@
-import Chat from "./components/chat";
-import { Files } from "./components/files";
+import Chat from "@/components/chat";
+import { Files } from "@/components/files";
 
 export default function Home() {
   return (

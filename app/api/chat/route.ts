@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-import { getChatEngine } from "@/app/ai-engine";
+import { getChatEngine } from "@/lib/ai-engine";
 
 import { bodySchema, Message } from "./schema";
 import { iteratorToStream } from "./iteratorToStream";
