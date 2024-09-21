@@ -1,6 +1,5 @@
 import { createRouteHandler, createUploadthing, type FileRouter as UploadThingFileRouter } from "uploadthing/next";
-import { getDocuments } from "./embeddings/loader";
-import { getIndexFromStore } from "./embeddings/generate";
+import { getDocuments, getIndexFromStore } from "@/app/ai-engine";
 
 const f = createUploadthing();
 
